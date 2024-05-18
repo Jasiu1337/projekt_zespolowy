@@ -1,0 +1,3 @@
+C:/Users/jantr/OneDrive/Pulpit/projekt_zespolowy/cmake-build-debug/CMakeFiles/projekt_zespolowy.dir
+C:/Users/jantr/OneDrive/Pulpit/projekt_zespolowy/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/jantr/OneDrive/Pulpit/projekt_zespolowy/cmake-build-debug/CMakeFiles/rebuild_cache.dir
