@@ -22,24 +22,20 @@ using namespace std;
 class Course {
 private:
 	string name;
-	class Teacher* teacher;
 	string materials = "";
 	int capacity;
 	int currentCapacity = 0;
 	vector<class Student*> students;
 	map<class Student*,vector<float>> grades;
-    class Department* department;
 public:
-	Course(string name, Teacher* teacher, Department* department, int capacity);
+	Course(string name, int capacity);
 	bool addGrade(Student* student, float grade);
 	bool addStudent(Student* student);
 	void setMaterials(string file);
 	string getMaterials();
 	map<Student*,vector<float>> getGrades();
 	string getName();
-	Teacher* getTeacher();
 	vector<Student*> getStudents();
-	Department* getDepartment();
 };
 
 #endif  //_COURSE_H

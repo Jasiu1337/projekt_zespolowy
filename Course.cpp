@@ -12,10 +12,8 @@
 
 #include "Course.h"
 
-Course::Course(string name, Teacher* teacher, Department* department, int capacity) {
+Course::Course(string name, int capacity) {
     this->name=name;
-    this->teacher=teacher;
-    this->department=department;
     this->capacity=capacity;
 }
 
@@ -58,15 +56,7 @@ string Course::getName() {
     return this->name;
 }
 
-Teacher* Course::getTeacher() {
-    return this->teacher;
-}
-
 vector<Student*> Course::getStudents() {
     return this->students;
-}
-
-Department* Course::getDepartment() {
-    return this->department;
 }
 

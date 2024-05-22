@@ -32,7 +32,7 @@ public:
 	string getPassword();
 	string getName();
 	string getSurname();
-	Department* getDepartment();
+    Department* getDepartment();
 };
 
 #endif  //_TEACHER_H

@@ -23,6 +23,7 @@ Teacher* University::LoginTeacher(string login, string password) {
         if(teachers[i]->getLogin()==login&&teachers[i]->getPassword()==password)
         {
             teacher=teachers[i];
+            break;
         }
     }
     return teacher;

@@ -98,6 +98,13 @@ build CMakeFiles/projekt_zespolowy.dir/interface.cpp.obj: CXX_COMPILER__projekt_
   OBJECT_DIR = CMakeFiles\projekt_zespolowy.dir
   OBJECT_FILE_DIR = CMakeFiles\projekt_zespolowy.dir
 
+build CMakeFiles/projekt_zespolowy.dir/test.cpp.obj: CXX_COMPILER__projekt_zespolowy_unscanned_Debug C$:/Users/jantr/OneDrive/Pulpit/projekt_zespolowy/test.cpp || cmake_object_order_depends_target_projekt_zespolowy
+  DEP_FILE = CMakeFiles\projekt_zespolowy.dir\test.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/jantr/OneDrive/Pulpit/projekt_zespolowy/.
+  OBJECT_DIR = CMakeFiles\projekt_zespolowy.dir
+  OBJECT_FILE_DIR = CMakeFiles\projekt_zespolowy.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target projekt_zespolowy
@@ -106,7 +113,7 @@ build CMakeFiles/projekt_zespolowy.dir/interface.cpp.obj: CXX_COMPILER__projekt_
 #############################################
 # Link the executable projekt_zespolowy.exe
 
-build projekt_zespolowy.exe: CXX_EXECUTABLE_LINKER__projekt_zespolowy_Debug CMakeFiles/projekt_zespolowy.dir/Course.cpp.obj CMakeFiles/projekt_zespolowy.dir/Department.cpp.obj CMakeFiles/projekt_zespolowy.dir/main.cpp.obj CMakeFiles/projekt_zespolowy.dir/Student.cpp.obj CMakeFiles/projekt_zespolowy.dir/Teacher.cpp.obj CMakeFiles/projekt_zespolowy.dir/University.cpp.obj CMakeFiles/projekt_zespolowy.dir/interface.cpp.obj
+build projekt_zespolowy.exe: CXX_EXECUTABLE_LINKER__projekt_zespolowy_Debug CMakeFiles/projekt_zespolowy.dir/Course.cpp.obj CMakeFiles/projekt_zespolowy.dir/Department.cpp.obj CMakeFiles/projekt_zespolowy.dir/main.cpp.obj CMakeFiles/projekt_zespolowy.dir/Student.cpp.obj CMakeFiles/projekt_zespolowy.dir/Teacher.cpp.obj CMakeFiles/projekt_zespolowy.dir/University.cpp.obj CMakeFiles/projekt_zespolowy.dir/interface.cpp.obj CMakeFiles/projekt_zespolowy.dir/test.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\projekt_zespolowy.dir

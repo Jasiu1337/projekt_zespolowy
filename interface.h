@@ -11,4 +11,6 @@ void start(University* university);
 void start(Student* student);
 void start(Teacher* teacher);
 void downloadAnimation();
+void validatedInput(int& value);
+void validatedInput(float& value);
 #endif //PROJEKT_ZESPOLOWY_INTERFACE_H

@@ -18,4 +18,6 @@ add_executable(projekt_zespolowy
         University.cpp
         University.h
         interface.cpp
-        interface.h)
+        interface.h
+        test.h
+        test.cpp)

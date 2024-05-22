@@ -22,7 +22,7 @@ Teacher::Teacher(string login, string password, string name, string surname, Dep
 }
 
 bool Teacher::addCourse(string name, int capacity) {
-    Course* course=new Course(name,this,this->department,capacity);
+    Course* course=new Course(name,capacity);
     bool success=this->department->addCourse(course);
     if(success)
         this->courses.push_back(course);
@@ -53,7 +53,8 @@ string Teacher::getSurname() {
     return this->surname;
 }
 
-Department* Teacher::getDepartment() {
+Department *Teacher::getDepartment() {
     return this->department;
 }
+
 
